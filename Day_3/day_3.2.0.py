@@ -24,75 +24,74 @@ elif answer == "yes":
     print("You better hurry and start picking up the pace!!!") 
     crossroads = input ("Your at the crossroads where do you turn, right or left? ").lower()
     if crossroads == "left":
-         print("Gameover. At the crossroads, don't turn left")
+         print("Game Over. At the crossroads, don't turn left")
     elif crossroads == "right":
         print("Your now at the mountain")
         mountain = input("As Caseoh trips, causing rocks to fall. There is a small cabin do you hide to take cover, yes or no? ").lower()
         if mountain == "no":
-             print("Gameover. You've been caught in all the rocks and caseoh manages to eat you!!!")
+             print("Game Over. You've been caught in all the rocks and caseoh manages to eat you!!!")
         elif mountain == "yes":
               print("Forunately you are saved from the rocks falling on you")
               cabin = input("Caseoh, manages to find you in the cabin do you plea with him yes or no? ").lower()
               if cabin == "no":
-                   print("Gameover. Caseoh eats you.")
+                   print("Game Over. Caseoh eats you.")
               elif cabin == "yes":
                    print("Caseoh stops to hear you speak.")
                    plea = input("As you plea with Caseoh, you realize Caseoh is hungry where do you take him? Tacobell , Mcdonalds , and Arbys? ").lower()
                    if plea == "Tacobell":
-                       print("Gameover. Caseoh has beef with tacobell as it gave him food poisoning so he ate you instead.")
-                   elif plea == "Arnys":
+                       print("Game Over. Caseoh has beef with tacobell as it gave him food poisoning so he ate you instead.")
+                   elif plea == "arbys":
                         print("Caseoh tears you apart and eats you.")
-                   elif plea == "Mcdonalds":
+                   elif plea == "mcdonalds":
                          print("Caseoh is very pleased with you choice")
                          print("Chapter 2")
                          salad = input("Although Caseoh was satistfied with his meal at Mcdonalds, he is still wants to eat you what do you do? Take him to a salad bar, play dead by daylight, or take him to sonic? ").lower()    
                          if  salad == "play dead by daylight":
-                          print("Gameover. Caseoh gets so mad he jumps again which causes in earthquake and kills you.")
+                          print("Game Over. Caseoh gets so mad he jumps again which causes in earthquake and kills you.")
                          elif salad == "take him to a salad bar":
                           print("Better than the other options")
                          elif salad == "sonic":
                               print("Better than the other options.")
                               sonic = input("Your at sonic with Caseoh what do you order? twofoot long hot dogs, premium chicken bites, and cheese burger? ").lower()
                               if sonic == "premium chicken bites":
-                                        print("Gameover. Caseoh eats you.")
+                                        print("Game Over. Caseoh eats you.")
                               elif sonic == "two foot long hot dogs":
                                         print("Good choice, Caseoh is very pleased")
                                         fries = input("The server asks you if you would like some fries yes or no? ").lower()
                                         if fries == "yes":
-                                             print("Gameover. Caseoh is so mad at you as he hates sonic fries and eats you.")
+                                             print("Game Over. Caseoh is so mad at you as he hates sonic fries and eats you.")
                                         elif fries == "no":
                                              print("Caseoh is pleased that your remember he hates sonic fries")
                                              still = input ("Caseoh is still hungry, where should you take him now? Freddys, Wendys, Canes? ").lower()
-                                             if still == "Freddys":
-                                                  print("Gameover. Caseoh doesn't want Freddys")
-                                             elif still == "Wendys":
+                                             if still == "freddys":
+                                                  print("Game Over. Caseoh doesn't want Freddys")
+                                             elif still == "wendys":
                                                   print("Good choice, Caseoh is happy.")
-                                                  wendy = input ("Your at the drive thru what should you order? Spicy Nuggets, Triple Baconator, Small fries ".lower())
-                                                  if wendy == "Triple Baconator":
-                                                       print("Gameover. Caseoh is not pleased.")
-                                                       print("Chapter 3")
-                                                  elif wendy == "Spicy Nuggets":
-                                                       print("Caseoh is so happy he did a backflip")               
+                                                  if still == "Triple Baconator":
+                                                       print("Game Over. Caseoh is not pleased.")
+                                                  elif still== "Spicy Nuggets":
+                                                       print("Caseoh is so happy he did a backflip")
+                                                       print("Chapter 3")               
                                                        backflip = input ("After Caseoh did a backflip now there is tsunami warnings in the area should you get gas? yes or no? ").lower()
                                                        if backflip == "no":
-                                                            print("Gameover. You ran out of gas and the tsunami consumed you.")
+                                                            print("Game Over. You ran out of gas and the tsunami consumed you.")
                                                        elif backflip == "yes":
                                                             print("Good your are very low and gas and wouldn't have made it without gas.")
                                                             gas = input ("Your at the gas station, which type of gas should you get disel or gas? ").lower()
                                                             if gas == "disel":
-                                                                 print("Gameover. Wasn't the right gas type and you died since the car couldn't run.")
+                                                                 print("Game Over. Wasn't the right gas type and you died since the car couldn't run.")
                                                             elif gas == "gas":
                                                                  print("Good thinking your car can't do disel!")
                                                                  station = input("You and Caseoh decide to go into the gas station for some supplies, what should you get life jacket, swim goggles, or pizza ").lower()
                                                                  if station == "swim goggles":
-                                                                  print("Gameover. The swim goggles weren't much help")
+                                                                  print("Game Over. The swim goggles weren't much help")
                                                                  elif station == "life jacket":
                                                                       print("At least you know some basic needs")
                                                                       help = input("As you leave the store, Tung Tung Sahur asks if you would like some extra gas canisters for $6.7. Do you accept yes or no? ").lower()
                                                                       if help == "yes":
                                                                            print("You ended up needing those canisters in the end")
                                                                       elif help == "no":
-                                                                           print("Gameover. you needed those as you ran out of more gas")
+                                                                           print("Game Over. you needed those as you ran out of more gas")
                                                                            tung = input("Tung Tung Sahur is wondering if he could join you and Caseoh to escape the tsunami. Do you accept him yes or no? ").lower()
                                                                            if tung == "no":
                                                                                 print("Game Over. In the end you needed Tung Tung Sahur to save you.")
@@ -126,9 +125,9 @@ elif answer == "yes":
                                                                                                               print("Better choice than apple, but the google voice does drive you insane.")
                                                                                                               print("Chapter 5")
                                                                                                               hotel = input ("Your trying to find the tallest hotel in your area but don't know which hotel to decide on its either the Marriot or Hiliton? ").lower()
-                                                                                                              if hotel == "Hilition":
+                                                                                                              if hotel == "hilition":
                                                                                                                    print("Game Over. Your cooked.")
-                                                                                                              elif hotel == "Marriot":
+                                                                                                              elif hotel == "Marriott":
                                                                                                                     print("Good choice")
                                                                                                                     stair = input ("You've arrived at the hotel but what do you take the elevator or the stairs").lower()
                                                                                                                     if stair == "elevator":
@@ -140,16 +139,16 @@ elif answer == "yes":
                                                                                                                              print("Game Over. Forgot you needed to get on top of the roof and just stuffed your mouth with food.")
                                                                                                                         elif passage == "no":
                                                                                                                              print("Smart thinking!")
-                                                                                                                             roof = input("You get to the roof top but theres no tsunami, what do you do? Wait it out or Leave? ").lower()
+                                                                                                                             roof = input("You get to the rooftop but theres no tsunami, what do you do? Wait it out or Leave? ").lower()
                                                                                                                              if roof == "leave":
                                                                                                                                   print("Game Over. The tsunami still came")
-                                                                                                                             elif roof == "Wait it out":
+                                                                                                                             elif roof == "wait it out":
                                                                                                                                   print("Good you waitied it out as the tsunami still came!")     
                                                                                                                                   hungry = input ("Your very hungry do you decided to eat yes or no? ").lower()     
                                                                                                                                   if hungry == "no":
                                                                                                                                        print("Game Over. You died from hunger")
                                                                                                                                   elif hungry == "yes": 
                                                                                                                                        print("You head to McDonalds again and have the best meal of your life")
-                                                                                                                                       print("The end good job you managed to survived!!")
-                                                       else:
-                                                            print("Game Over. Caseoh ate you.")
+                                                                                                                                       print("The end good job you managed to survive!!")
+else:
+     print("Game Over. Caseoh ate you.")
